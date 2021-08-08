@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.order-summary-card {
+  border: 1px red solid;
+  max-width: 90vw;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 6rem auto ;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.hero {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.order-title {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.hero-description {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.plan {
+  /* border: 1px blue solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: hsl(240, 10%, 97%);
+  border-radius: 1rem;
+}
+
+.plan-title {
+  font-weight: 600;
+}
+
+.plan-price {
+  opacity: 60%;
+}
+
+.plan-change {
+  color: hsl(240, 50%, 50%);
+  font-weight: 600;
+}
+
+.btn {
+  display: block;
+  border-radius: 1rem;
+  width: 75%;
+  margin: 1rem auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  color: hsl(240, 4%, 32%);
+}
+
+.blue-btn {
+  background-color: rgb(73, 38, 231);
+  color: hsl(240, 10%, 97%);
+}
